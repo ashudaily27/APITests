@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+<!--    <test verbose="2" preserve-order="true" name="/Users/ashukumar/IdeaProjects/RestAssuredProject2">-->
+       <test name="APICheck">
+        <classes>
+            <class name="APITest2">
+                <methods>
+                    <include name="successregister"/>
+                    <include name="unsuccessregister"/>
+                    <include name="successlogin"/>
+                    <include name="unsuccesslogin"/>
+                </methods>
+
+            </class>
+        </classes>
+    </test>
+</suite>

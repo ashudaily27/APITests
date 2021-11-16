@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [All Test Suite]">
+  <test thread-count="5" name="/Users/ashukumar/IdeaProjects/RestAssuredProject2(failed)">
+    <classes>
+      <class name="APITest2">
+        <methods>
+          <include name="test3"/>
+        </methods>
+      </class> <!-- APITest2 -->
+    </classes>
+  </test> <!-- /Users/ashukumar/IdeaProjects/RestAssuredProject2(failed) -->
+</suite> <!-- Failed suite [All Test Suite] -->
